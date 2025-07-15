@@ -1,0 +1,76 @@
+.contacto-form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea el formulario al centro */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alinea los elementos al centro del formulario */
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    width: 100%;
+    text-align: left; /* Alinea los labels con los inputs */
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+    width: 90%; /* Mantiene el ancho de los inputs alineados al contenedor padre */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+.contacto-form textarea {
+    height: 100px;
+    resize: none;
+}
+
+.contacto-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contacto-container2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #061557;
+    border: 3px solid rgb(221, 11, 11);
+    width: 40%;
+    height: 80%;
+    margin: 20px;
+    padding: 10px;
+}
+
+.contacto-container2 h2 {
+    color: white;
+    padding-bottom: 15px;
+}
+
+.btn {
+    border: none; 
+    color: rgb(17, 3, 75); 
+    padding: 15px 32px;
+    margin: 20px;
+    cursor: pointer; 
+    border-radius: 5px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+  .contacto-btn {background-color: white; border: 2px solid #007bff;} 
+  .contacto-btn:hover {background: #045da7; color: white;}

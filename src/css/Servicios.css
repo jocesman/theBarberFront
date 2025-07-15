@@ -1,0 +1,88 @@
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #15043d;
+    line-height: 1.6;
+  }
+  
+  h1, h3 {
+    text-align: center;
+    color: #0a034b;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-size: 36px;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-top: 15px;
+  }
+  
+  p {
+    font-size: 18px;
+    margin: 15px 0;
+    text-align: justify;
+  }
+  
+  i {
+    font-style: italic;
+  }
+  
+  bold, b {
+    font-weight: bold;
+  }
+  
+  /* Estilos específicos para la imagen del servicio */
+  .servicios-container img {
+    display: block;   /* Hace que la imagen sea un bloque */
+    margin-left: auto; /* Centra la imagen horizontalmente */
+    margin-right: auto; /* Centra la imagen horizontalmente */
+    width: 40%; /* Opcional: ajusta el tamaño de la imagen */
+    max-width: 900px; /* Ajusta el tamaño máximo para evitar que sea demasiado grande */
+    height: auto; /* Mantiene la relación de aspecto */
+    border-radius: 5px;
+    box-shadow: #000000 0px 0px 10px;
+  }
+  
+  .servicios-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .servicios-container h1, .servicios-container h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+  }
+  
+  .servicios-container p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    padding-left: 10px;
+    line-height: 1.8;
+  }
+  
+  .servicios-container p b {
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .servicios-container h3:last-of-type {
+    font-size: 30px;
+    font-weight: bold;
+    color: #e93b3d; /* Un color rojo para llamar la atención */
+    margin-top: 30px;
+  }
+  

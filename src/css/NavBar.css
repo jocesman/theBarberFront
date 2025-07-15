@@ -1,0 +1,60 @@
+/* Estilos para el Navbar */
+.navbar {
+    background-color: #0f037c; /* Azul oscuro */
+    background-image: linear-gradient(to right, #0f037c, #0f037c);
+    position: sticky;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+  }
+  
+  .imagenBarber {
+    display: flex;
+    align-items: center;
+    width: 150px; /* Ajuste de tamaño para evitar que la imagen desplace otros elementos */
+  }
+  
+  .imagenBarber img {
+    height: auto;
+    width: 80%;
+  }
+  
+  .navbar-content {
+    display: flex;
+    gap: 40px;
+  }
+  
+  .link {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .link:hover {
+    color: #f1c40f; /* Amarillo moderno */
+    transform: scale(1.1);
+  }
+  
+  .credenciales {
+    display: flex;
+    gap: 15px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .credenciales label:hover {
+    color: #e74c3c; /* Rojo moderno */
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
