@@ -17,7 +17,7 @@
     "react-bootstrap": "^2.10.9",
     "react-datepicker": "^8.2.0",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^7.2.0",
+    "react-router-dom": "^7.6.3",
     "styled-components": "^6.1.14",
     "sweetalert2": "^11.17.2",
     "yup": "^1.6.1"
